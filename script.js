@@ -207,3 +207,31 @@ window.addEventListener('load', () => {
     document.body.style.opacity = '1';
   });
 });
+const heroPhotoFrame = document.querySelector('.hero-photo-frame');
+
+heroPhotoFrame.addEventListener('mousemove', (e) => {
+  const rect = heroPhotoFrame.getBoundingClientRect();
+
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+
+  const rotateY = ((x / rect.width) - 0.5) * 18;
+  const rotateX = ((y / rect.height) - 0.5) * -18;
+
+  heroPhotoFrame.style.transform = `
+    perspective(1000px)
+    rotateX(${rotateX}deg)
+    rotateY(${rotateY}deg)
+    scale(1.03)
+  `;
+});
+
+heroPhotoFrame.addEventListener('mouseleave', () => {
+  heroPhotoFrame.style.transform = `
+    perspective(1000px)
+    rotateX(0deg)
+    rotateY(0deg)
+    scale(1)
+  `;
+});
+
