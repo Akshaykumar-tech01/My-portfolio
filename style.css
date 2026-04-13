@@ -92,17 +92,33 @@ body::before {
 }
 
 .nav-logo {
-  font-family: 'Syne', sans-serif;
-  font-weight: 800;
-  font-size: 1.3rem;
-  color: var(--accent);
-  letter-spacing: -0.02em;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  cursor:pointer;
 }
 
-.nav-logo-dot {
-  color: var(--muted);
+.nav-logo-img{
+    width:52px;
+    height:52px;
+    object-fit:contain;
+    border-radius:50%;
+    filter:drop-shadow(0 0 10px rgba(0,245,196,0.4));
+    transition:all .4s ease;
 }
 
+.nav-logo:hover .nav-logo-img{
+    transform:rotate(10deg) scale(1.08);
+    filter:drop-shadow(0 0 18px rgba(0,245,196,0.8));
+}
+
+.nav-logo-text{
+    font-family:'Syne',sans-serif;
+    font-size:1rem;
+    font-weight:700;
+    color:var(--accent);
+    letter-spacing:.08em;
+}
 .nav-links {
   display: flex;
   gap: 2.5rem;
