@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay Kumar — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-logo">AK<span class="nav-logo-dot">.</span></div>
+    <div class="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certs</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Open to Work · Available Now
+        </div>
+        <h1 class="hero-name glitch" data-text="Akshay Kumar">
+          Akshay<span>Kumar</span>
+        </h1>
+        <p class="hero-tagline">
+          MERN Stack Developer &amp; Data Science enthusiast. Building intelligent
+          web applications that bridge beautiful design with powerful AI.
+        </p>
+        <div class="hero-ctas">
+          <a href="mailto:ar5426101@gmail.com" class="btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Get In Touch
+          </a>
+          <a href="https://linkedin.com/in/akshay-kumar-a620b52b2" target="_blank" class="btn-ghost">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-frame">
+          <div class="photo-bg-shape"></div>
+          <img src="akshay.jpeg" alt="Akshay Kumar" class="hero-photo" />
+          <div class="photo-tag tag1"><span class="tag-label">📍</span>Baghpat, UP · India</div>
+          <div class="photo-tag tag2"><span class="tag-label">🎓</span>B.Tech CSE · 2027</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Stats Strip -->
+  <div class="stats-strip">
+    <div class="stat-item">
+      <span class="stat-num" id="stat1">0</span>
+      <div class="stat-label">Projects Built</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" id="stat2">0</span>
+      <div class="stat-label">Certifications</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" id="stat3">0</span>
+      <div class="stat-label">Connections</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" id="stat4">0</span>
+      <div class="stat-label">Skills Mastered</div>
+    </div>
+  </div>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span class="marquee-item">Python</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">React.js</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Node.js</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Machine Learning</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Data Science</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">SQL</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">NLP</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Firebase</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Streamlit</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">HTML · CSS · JS</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Python</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">React.js</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Node.js</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Machine Learning</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Data Science</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">SQL</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">NLP</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Firebase</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">Streamlit</span><span class="marquee-sep">✦</span>
+      <span class="marquee-item">HTML · CSS · JS</span><span class="marquee-sep">✦</span>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-light">
+    <div class="section-label">02 — Technical Expertise</div>
+    <h2 class="section-title">What I <em>Build With</em></h2>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="skill-cat-icon">🎨</div>
+        <div class="skill-cat-title">Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-1">
+        <div class="skill-cat-icon">⚙️</div>
+        <div class="skill-cat-title">Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">C Language</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-2">
+        <div class="skill-cat-icon">🗄️</div>
+        <div class="skill-cat-title">Database</div>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Firebase</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-3">
+        <div class="skill-cat-icon">🤖</div>
+        <div class="skill-cat-title">AI / Data Science</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">NLP</span>
+          <span class="skill-tag">Data Analysis</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">Streamlit</span>
+          <span class="skill-tag">Jupyter</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-icon">🛠️</div>
+        <div class="skill-cat-title">Tools &amp; Platforms</div>
+        <div class="skill-tags">
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Jupyter Notebook</span>
+        </div>
+      </div>
+      <div class="skill-category reveal reveal-delay-1">
+        <div class="skill-cat-icon">💡</div>
+        <div class="skill-cat-title">Soft Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Problem Solving</span>
+          <span class="skill-tag">Team Leadership</span>
+          <span class="skill-tag">Adaptability</span>
+          <span class="skill-tag">Quick Learner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-dark">
+    <div class="section-label">03 — Selected Work</div>
+    <h2 class="section-title">Projects I've <em>Crafted</em></h2>
+    <div class="projects-grid">
+
+      <div class="project-card project-featured reveal">
+        <div class="featured-badge">✦ Featured Project</div>
+        <div class="project-num">001 — Jan 2026 to Mar 2026</div>
+        <div class="project-title">AK-Recruit-AI</div>
+        <p class="project-desc">An intelligent AI-based recruitment assistant that streamlines the hiring process. Analyzes and screens resumes by extracting key information — skills, experience, education — and compares against job descriptions. Auto-ranks candidates by relevance and generates data-driven insights to make hiring faster and smarter.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Streamlit</span>
+          <span class="tech-pill">NLP</span>
+          <span class="tech-pill">Machine Learning</span>
+          <span class="tech-pill">Pandas</span>
+        </div>
+        <span class="project-assoc">Associated with BharatSkillz</span>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">002 — Web Application</div>
+        <div class="project-title">Farm2Fork</div>
+        <p class="project-desc">An "Uber for Farm to Restaurant" — a full-featured marketplace bridging farmers and consumers directly. Real-time product browsing, direct farm-to-table connectivity, and component-based architecture for scalability.</p>
+        <div class="project-tech">
+          <span class="tech-pill">React.js</span>
+          <span class="tech-pill">Firebase</span>
+          <span class="tech-pill">JavaScript</span>
+          <span class="tech-pill">CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-num">003 — Web App</div>
+        <div class="project-title">Tech C — Car Rental</div>
+        <p class="project-desc">A full-featured car rental website with complete booking and vehicle listing functionality. Clean UI with intuitive navigation for both renters and owners.</p>
+        <div class="project-tech">
+          <span class="tech-pill">HTML</span>
+          <span class="tech-pill">CSS</span>
+          <span class="tech-pill">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-num">004 — Productivity Tool</div>
+        <div class="project-title">Typing Tester</div>
+        <p class="project-desc">An interactive typing speed and accuracy trainer. Helps users improve typing skills through timed practice sessions with real-time performance feedback.</p>
+        <div class="project-tech">
+          <span class="tech-pill">JavaScript</span>
+          <span class="tech-pill">HTML</span>
+          <span class="tech-pill">CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-light">
+    <div class="section-label">04 — Work History</div>
+    <h2 class="section-title">Where I've <em>Worked</em></h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Dec 2025 — Feb 2026 · 3 months · Remote</div>
+        <div class="timeline-role">Python Developer Intern</div>
+        <div class="timeline-company">BharatSkillz · Baghpat, Uttar Pradesh</div>
+        <ul class="timeline-points">
+          <li>Gained hands-on experience in Data Science through data cleaning, exploratory analysis, and ML model development</li>
+          <li>Contributed to real-world problem-solving using Python, Pandas, and visualization tools to generate meaningful insights</li>
+          <li>Built AK-Recruit-AI — an AI-powered resume screening system using NLP and Streamlit</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section-dark">
+    <div class="section-label">05 — Credentials</div>
+    <h2 class="section-title">Licenses & <em>Certifications</em></h2>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <img src="bharatskillz internship.png" class="cert-img" />
+        <div class="cert-issuer">BharatSkillz</div>
+        <div class="cert-title">Certificate of Internship — Data Science</div>
+        <div class="cert-date">Mar 2026 · ID: 2025:BS:434</div>
+        <div class="cert-skills">
+          <span class="cert-skill">Python</span><span class="cert-skill">NLP</span>
+          <span class="cert-skill">Data Science</span><span class="cert-skill">Data Analysis</span>
+        </div>
+      </div>
+      <div class="cert-card reveal reveal-delay-1">
+        <img src="bharatskillz completion.png" class="cert-img" />
+        <div class="cert-issuer">BharatSkillz</div>
+        <div class="cert-title">Certificate of Completion — Data Science</div>
+        <div class="cert-date">Mar 2026 · ID: 2025:BS:434</div>
+        <div class="cert-skills">
+          <span class="cert-skill">Python</span><span class="cert-skill">NLP</span>
+          <span class="cert-skill">ML</span><span class="cert-skill">Streamlit</span>
+        </div>
+      </div>
+      <div class="cert-card reveal reveal-delay-2">
+        <img src="wscube sql.png" class="cert-img" />
+        <div class="cert-issuer">Wscubetech</div>
+        <div class="cert-title">Certificate of Completion — Master SQL Fundamentals</div>
+        <div class="cert-date">Dec 2025 · ID: WS/2025/M/27879</div>
+        <div class="cert-skills"><span class="cert-skill">SQL</span></div>
+      </div>
+      <div class="cert-card reveal reveal-delay-3">
+        <img src="mernstack.png" class="cert-img" />
+        <div class="cert-issuer">Simplilearn</div>
+        <div class="cert-title">Certificate of Completion — MERN Stack</div>
+        <div class="cert-date">Oct 2025 · ID: 9107252</div>
+        <div class="cert-skills">
+          <span class="cert-skill">HTML5</span><span class="cert-skill">CSS</span>
+          <span class="cert-skill">JavaScript</span>
+        </div>
+      </div>
+      <div class="cert-card reveal reveal-delay-4">
+        <img src="technophilia.png" class="cert-img" />
+        <div class="cert-issuer">DVSIET</div>
+        <div class="cert-title">Certificate of Participation — Technophilia 2025</div>
+        <div class="cert-date">9 May 2025 </div>
+      </div>
+      <div class="cert-card reveal reveal-delay-5">
+        <img src="techfest.png" class="cert-img" />
+        <div class="cert-issuer">Meerut Institute of Technology</div>
+        <div class="cert-title">Certificate of Participation — TECHFEST 2025</div>
+        <div class="cert-date">Nov 2025 </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-light">
+    <div class="section-label">06 — Education</div>
+    <h2 class="section-title">Academic <em>Background</em></h2>
+    <div class="edu-list">
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-info">
+          <div class="edu-degree">Bachelor of Technology — Computer Science Engineering</div>
+          <div class="edu-school">Dr. A.P.J. Abdul Kalam Technical University</div>
+          <div class="edu-sub">Dewan VS Institute of Engineering &amp; Technology</div>
+          <div class="edu-year">Aug 2023 — 2027 (In Progress)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hackathons Section -->
+  <section id="hackathons" class="section-dark">
+    <div class="section-label">07 — Activities</div>
+    <h2 class="section-title">Workshops &amp; <em>Hackathons</em></h2>
+    <div class="hack-list">
+      <div class="hack-item reveal">
+        <div class="hack-icon">🔬</div>
+        <div>
+          <div class="hack-title">Data Science Workshop — E&amp;ICT Academy, IIT Kanpur</div>
+          <div class="hack-desc">Completed a 15-day intensive program covering core Data Science concepts and analytical problem-solving with industry experts.</div>
+        </div>
+      </div>
+      <div class="hack-item reveal reveal-delay-1">
+        <div class="hack-icon">🚁</div>
+        <div>
+          <div class="hack-title">Drone Data Processing Lab — Yuva Yaan (Govt. of India)</div>
+          <div class="hack-desc">Developed practical understanding of drone-based mapping and processing workflows under the Government of India initiative.</div>
+        </div>
+      </div>
+      <div class="hack-item reveal reveal-delay-2">
+        <div class="hack-icon">🏆</div>
+        <div>
+          <div class="hack-title">HactoberFest — Campus Hackathon</div>
+          <div class="hack-desc">Team built an Event Management System at the campus hackathon — managing coordination, backend logic, and deployment.</div>
+        </div>
+      </div>
+      <div class="hack-item reveal reveal-delay-3">
+        <div class="hack-icon">⚡</div>
+        <div>
+          <div class="hack-title">TechFest MIT</div>
+          <div class="hack-desc">Led the team to build an onsite problem solution at MIT TechFest, showcasing rapid prototyping and leadership under pressure.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-title">
+      Let's <em>Build</em><br />Together.
+    </div>
+    <p class="contact-sub">Open to internships, full-time opportunities, and exciting collaborations.</p>
+    <div class="contact-links">
+      <a href="mailto:ar5426101@gmail.com" class="contact-link">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+        ar5426101@gmail.com
+      </a>
+      <a href="tel:+918923100745" class="contact-link">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+        </svg>
+        +91 89231 00745
+      </a>
+      <a href="https://linkedin.com/in/akshay-kumar-a620b52b2" target="_blank" class="contact-link">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+        LinkedIn Profile
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed &amp; built with ❤️ for <span>Akshay Kumar</span> · 2026</p>
+    <p class="footer-sub">MERN · Python · Data Science · AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
