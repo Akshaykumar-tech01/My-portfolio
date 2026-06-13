@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="fevicon.png">
+  <link rel="icon" type="image/png" href="assets/fevicon.png">
 </head>
 <body>
 
@@ -19,10 +19,11 @@
   <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-logo">
-      <img src="AKlogo.png" alt="Akshay Kumar Logo" class="nav-logo-img">
+      <img src="assets/AKlogo.png" alt="Akshay Kumar Logo" class="nav-logo-img">
       <span class="nav-logo-text">Akshay Kumar</span>
     </div>
     <div class="nav-links">
+      <a href="#about">About me</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
@@ -48,8 +49,9 @@
           Akshay<span>Kumar</span>
         </h1>
         <p class="hero-tagline">
-          MERN Stack Developer &amp; Data Science enthusiast. Building intelligent
-          web applications that bridge beautiful design with powerful AI.
+          Computer Science Engineering Student |<br>
+          MERN Stack Developer | Python Developer | <br>
+          AI & Data Science Enthusiast.<br>
         </p>
         <div class="hero-ctas">
           <a href="mailto:ar5426101@gmail.com" class="btn-primary">
@@ -59,8 +61,44 @@
             </svg>
             Get In Touch
           </a>
-          <a href="https://linkedin.com/in/akshay-kumar-a620b52b2" target="_blank" class="btn-ghost">
-            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+          <div class="resume-dropdown">
+
+            <button class="btn-ghost resume-btn">
+              📄 Resume ▼
+            </button>
+
+            <div class="resume-menu">
+
+                <a href="assets/Akshay_Resume.pdf"
+                  target="_blank">
+                  👁 View Resume
+                </a>
+        
+                <a href="assets/Akshay_Resume.pdf"
+                  download="Akshay_Resume.pdf">
+                  ⬇ Download Resume
+                </a>
+
+            </div>
+
+          </div>
+
+          <a href="https://github.com/Akshaykumar-tech01"
+            target="_blank"
+            class="btn-ghost">
+
+            <svg width="16" height="16" fill="currentColor"
+              viewBox="0 0 24 24">
+              <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008 10.95c.6.1.82-.26.82-.58v-2.23c-3.25.71-3.94-1.56-3.94-1.56-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.76.41-1.27.74-1.56-2.59-.29-5.31-1.3-5.31-5.79 0-1.28.46-2.32 1.2-3.14-.12-.3-.52-1.5.12-3.13 0 0 .98-.31 3.2 1.2a11.1 11.1 0 015.82 0c2.22-1.51 3.2-1.2 3.2-1.2.64 1.63.24 2.83.12 3.13.75.82 1.2 1.86 1.2 3.14 0 4.5-2.73 5.5-5.33 5.79.42.36.8 1.07.8 2.17v3.22c0 .32.22.69.83.57A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/>
+            </svg>
+
+            GitHub
+          </a>
+
+          <a href="https://linkedin.com/in/akshay-kumar-a620b52b2"
+            target="_blank"
+            class="btn-ghost">
+            <svg width="16" height="16" fill="currentColor"         viewBox="0 0 24 24">
               <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
               <circle cx="4" cy="4" r="2"/>
             </svg>
@@ -75,7 +113,7 @@
         <div class="floating-particle p3"></div>
         <div class="hero-photo-frame">
           <div class="photo-bg-shape"></div>
-          <img src="Akshay.jpeg" alt="Akshay Kumar" class="hero-photo" />
+          <img src="assets/Akshay01.jpeg" alt="Akshay Kumar" class="hero-photo" />
           <div class="photo-ring ring1"></div>
           <div class="photo-ring ring2"></div>
           <div class="photo-ring ring3"></div>
@@ -136,6 +174,86 @@
       <span class="marquee-item">HTML · CSS · JS</span><span class="marquee-sep">✦</span>
     </div>
   </div>
+
+  <!-- About Me Section -->
+  <section id="about" class="section-light">
+    <div class="section-label">01 — About Me</div>
+    <h2 class="section-title">Who <em>I Am</em></h2>
+
+    <div class="about-container reveal">
+    
+      <div class="about-left">
+
+        <div class="about-highlight">
+            <span>💻 MERN Stack Developer</span>
+        </div>
+
+        <div class="about-highlight">
+            <span>🐍 Python Developer</span>
+        </div>
+
+        <div class="about-highlight">
+            <span>📊 Data Science Enthusiast</span>
+        </div>
+
+        <div class="about-highlight">
+            <span>🤖 AI Builder</span>
+        </div>
+
+        <div class="about-highlight">
+            <span>📍 Baghpat, Uttar Pradesh</span>
+        </div>
+
+        <div class="about-highlight">
+            <span>🎓 B.Tech CSE (2023–2027)</span>
+        </div>
+
+      </div>
+
+      <div class="about-right">
+        <p class="about-text">
+          I'm <span>Akshay Kumar</span>, a B.Tech Computer Science Engineering
+          student at Dewan VS Institute of Engineering & Technology.
+        </p>
+
+        <p class="about-text">
+          I specialize in MERN Stack Development, Python, Data Science,
+          Machine Learning, and AI-powered applications. I enjoy building
+          real-world solutions that combine modern web technologies with
+          intelligent systems.
+        </p>
+
+        <p class="about-text">
+          During my internship at BharatSkillz, I worked on Data Science
+          projects and developed AK-Recruit-AI, an AI-powered resume
+          screening system using NLP and Streamlit.
+        </p>
+
+        <div class="about-stats">
+          <div class="about-stat">
+            <h3>4+</h3>
+            <span>Projects</span>
+          </div>
+
+          <div class="about-stat">
+            <h3>6+</h3>
+            <span>Certificates</span>
+          </div>
+
+          <div class="about-stat">
+            <h3>1</h3>
+            <span>Internship</span>
+          </div>
+
+          <div class="about-stat">
+            <h3>2023-27</h3>
+            <span>Graduation</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- Skills Section -->
   <section id="skills" class="section-light">
@@ -225,6 +343,22 @@
           <span class="tech-pill">Machine Learning</span>
           <span class="tech-pill">Pandas</span>
         </div>
+        <div class="project-links">
+
+          <a href="https://ak-recruit-ai-tool.streamlit.app"
+            target="_blank"
+            class="project-btn demo-btn">
+              🚀 Live Demo
+          </a>
+
+          <a href="https://github.com/Akshaykumar-tech01/ak-recruit-ai-tool"
+            target="_blank"
+            class="project-btn github-btn">
+            💻 GitHub
+          </a>
+
+        </div>
+
         <span class="project-assoc">Associated with BharatSkillz</span>
       </div>
 
@@ -237,6 +371,21 @@
           <span class="tech-pill">Firebase</span>
           <span class="tech-pill">JavaScript</span>
           <span class="tech-pill">CSS</span>
+        </div>
+        <div class="project-links">
+
+          <a href="https://musical-vacherin-937748.netlify.app"
+            target="_blank"
+            class="project-btn demo-btn">
+              🚀 Live Demo
+          </a>
+
+          <a href="https://github.com/Akshaykumar-tech01/Farm2Fork"
+            target="_blank"
+            class="project-btn github-btn">
+            💻 GitHub
+          </a>
+
         </div>
       </div>
 
@@ -289,7 +438,7 @@
     <h2 class="section-title">Licenses & <em>Certifications</em></h2>
     <div class="certs-grid">
       <div class="cert-card reveal">
-        <img src="bharatskillz internship.png" class="cert-img" />
+        <img src="assets/bharatskillz internship.png" class="cert-img" />
         <div class="cert-issuer">BharatSkillz</div>
         <div class="cert-title">Certificate of Internship — Data Science</div>
         <div class="cert-date">Mar 2026 · ID: 2025:BS:434</div>
@@ -299,7 +448,7 @@
         </div>
       </div>
       <div class="cert-card reveal reveal-delay-1">
-        <img src="bharatskillz completion.png" class="cert-img" />
+        <img src="assets/bharatskillz completion.png" class="cert-img" />
         <div class="cert-issuer">BharatSkillz</div>
         <div class="cert-title">Certificate of Completion — Data Science</div>
         <div class="cert-date">Mar 2026 · ID: 2025:BS:434</div>
@@ -309,14 +458,14 @@
         </div>
       </div>
       <div class="cert-card reveal reveal-delay-2">
-        <img src="wscube sql.png" class="cert-img" />
+        <img src="assets/wscube sql.png" class="cert-img" />
         <div class="cert-issuer">Wscubetech</div>
         <div class="cert-title">Certificate of Completion — Master SQL Fundamentals</div>
         <div class="cert-date">Dec 2025 · ID: WS/2025/M/27879</div>
         <div class="cert-skills"><span class="cert-skill">SQL</span></div>
       </div>
       <div class="cert-card reveal reveal-delay-3">
-        <img src="mernstack.png" class="cert-img" />
+        <img src="assets/mernstack.png" class="cert-img" />
         <div class="cert-issuer">Simplilearn</div>
         <div class="cert-title">Certificate of Completion — MERN Stack</div>
         <div class="cert-date">Oct 2025 · ID: 9107252</div>
@@ -326,13 +475,13 @@
         </div>
       </div>
       <div class="cert-card reveal reveal-delay-4">
-        <img src="technophilia.png" class="cert-img" />
+        <img src="assets/technophilia.png" class="cert-img" />
         <div class="cert-issuer">DVSIET</div>
         <div class="cert-title">Certificate of Participation — Technophilia 2025</div>
         <div class="cert-date">9 May 2025 </div>
       </div>
       <div class="cert-card reveal reveal-delay-5">
-        <img src="techfest.png" class="cert-img" />
+        <img src="assets/techfest.png" class="cert-img" />
         <div class="cert-issuer">Meerut Institute of Technology</div>
         <div class="cert-title">Certificate of Participation — TECHFEST 2025</div>
         <div class="cert-date">Nov 2025 </div>

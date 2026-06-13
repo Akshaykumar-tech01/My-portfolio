@@ -139,6 +139,7 @@ document.querySelectorAll('.skill-tag').forEach((tag) => {
 /* ---------- Project Card Tilt Effect ---------- */
 document.querySelectorAll('.project-card').forEach((card) => {
   card.addEventListener('mousemove', (e) => {
+    if(e.target.closest('.project-links')) return;
     const rect  = card.getBoundingClientRect();
     const xPos  = e.clientX - rect.left;
     const yPos  = e.clientY - rect.top;
@@ -149,7 +150,6 @@ document.querySelectorAll('.project-card').forEach((card) => {
 
   card.addEventListener('mouseleave', () => {
     card.style.transform = '';
-    card.style.transition = 'all 0.4s ease';
   });
 });
 
